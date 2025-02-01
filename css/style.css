@@ -30,6 +30,21 @@ h2{
     color: #2e2f42;
 }
 
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .header .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -98,24 +113,9 @@ h2{
     visibility: hidden;
 }
 
-.features h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.features p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .team{
     background: #f4f4fd;
+    text-align: center;
 }
 
 .team li{
@@ -127,45 +127,11 @@ h2{
         background: #fff;
 }
 
-.team h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.team p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
 .portfolio li{
     border: 1px solid #e7e9fc;
     width: 360px;
     height: 420px;
     background: #fff;
-}
-
-.portfolio h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.portfolio p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .footer{
@@ -182,9 +148,5 @@ h2{
 }
 
 .footer p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
