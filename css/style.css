@@ -70,14 +70,14 @@ li{
     font-style: normal;
 }
 
-.info a{
+.info-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.info a:hover, .info a:focus{
+.info-link:hover, .info-link:focus{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
