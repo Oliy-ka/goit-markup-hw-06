@@ -4,12 +4,32 @@ body{
     background-color: #FFFFFF;
 }
 
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
 ul, ol{
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a{
     text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+main{
+    flex-grow: 1;
 }
 
 .title-second{
@@ -38,6 +58,50 @@ a{
 
 li{
     background: #fff;
+}
+
+/* #region header */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* padding: 24px 156px; */
+    gap: 332px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 76px;
+    padding-left: 156px;
+}
+
+.header-icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.info-list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .logo{
@@ -84,8 +148,21 @@ li{
     color: #404bbf;
 }
 
+/* #endregion */
+
+/* #region preview */
+
 .preview{
     background: #2e2f42;
+    /* width: 1440px;
+    height: 600px; */
+    padding-top: 188px;
+    padding-bottom: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
 
 .preview-title{
@@ -95,6 +172,8 @@ li{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-left: 472px;
+    padding-right: 472px;
 }
 
 .preview-btn{
@@ -105,31 +184,151 @@ li{
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px; */
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
 }
 
 .preview-btn:hover, .preview-btn:focus{
     background-color: #404BBF
 }
 
+/* #endregion preview */
+
+/* #region features */
+
+.features{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
 .features h2{
     visibility: hidden;
 }
 
+.feature-list{
+    display: flex;
+    flex-direction: row;
+    gap: 24px; 
+    justify-content: center;
+    align-items: center;
+}   
+
+.feature-list-item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: calc((100% - 384px)/4);
+}
+
+/* #endregion features */
+
+/* #region team */
+
 .team{
     background: #f4f4fd;
     text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
+.team-list{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+.team-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    /* padding: 0px 0px 32px 0px; */
+    width: calc((100% - 384px)/4);
+}
+
+.team-list-item-text {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* #endregion features */
+
+/* #region portfolio */
+
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list{
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: calc((100% - 384px)/3);
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+    gap: 32px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
+
+.portfolio-list-item-text{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;     
+}
+
+/* #endregion portfolio */
+
+/* #region footer */
 
 .footer{
     background: #2e2f42;
+    padding: 100px 1020px 100px 156px;
 }
 
 .footer .logo-span{
     color: #f4f4fd;
 }
 
+.footer-all-info{
+    width: 264px;
+}
+
 .text-footer{
     color: #f4f4fd;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    margin-top: 16px;   
 }
+
+/* #endregion footer */
