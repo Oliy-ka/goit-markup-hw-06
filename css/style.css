@@ -88,7 +88,7 @@ li{
     align-items: center;
 }
 
-.nav-list{
+.menu{
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -97,7 +97,7 @@ li{
     padding-left: 0;
 }
 
-.nav-list-item{
+.menu-item{
     padding: 24px 0;
 }
 
