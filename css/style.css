@@ -79,13 +79,14 @@ li{
 .header-items{
     display: flex;
     flex-direction: row;
-    gap: 332px;
+    align-items: center;
 }
 
 .header-nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: auto;
 }
 
 .menu{
@@ -97,18 +98,10 @@ li{
     padding-left: 0;
 }
 
-/* .menu-item{
-    padding: 24px 0;
-} */
-
 .info-list{
     display: flex;
     flex-direction: row;
     gap: 40px;
-}
-
-.info-list-item{
-    padding: 24px 0;
 }
 
 .logo{
@@ -132,6 +125,7 @@ li{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
     padding: 24px 0;
 }
 
