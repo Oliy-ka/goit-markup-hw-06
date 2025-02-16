@@ -187,7 +187,7 @@ li {
 
 .preview {
     background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -293,7 +293,7 @@ li {
     width: calc((100% - 72px)/4);
 }
 
-.team-card{
+.item-container{
     padding: 32px 0;
 }
 
@@ -307,12 +307,12 @@ li {
 
 .team-list-svg {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     justify-content: center;
 }
 
 .team-item-svg {
-    background: none;
+    /* background: none; */
     width: 40px;
     height: 40px;
     
@@ -331,7 +331,7 @@ li {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-link-svg:hover, .team-link-svg{
+.team-link-svg:hover, .team-link-svg:focus{
     background-color: #404BBF;
 }
 
