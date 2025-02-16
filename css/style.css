@@ -187,13 +187,14 @@ li {
 
 .preview {
     background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 .preview-title {
@@ -255,13 +256,13 @@ li {
 }
 
 .feature-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8e8f99;
     border-radius: 4px;
-    width: 264px;
     height: 112px;
-    background: #f4f4fd;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    background-color: #f4f4fd;
     margin-bottom: 8px;
 }
 
@@ -429,7 +430,7 @@ li {
     margin-right: 120px;
 }
 
-.footer a {
+.footer-logo-link {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -468,7 +469,6 @@ li {
 .footer-link {
     width: 100%;
     height: 100%;
-    padding: 8px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
