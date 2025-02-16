@@ -187,7 +187,7 @@ li {
 
 .preview {
     background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -311,12 +311,13 @@ li {
 }
 
 .team-item-svg {
+    background: none;
     width: 40px;
     height: 40px;
-    padding: 12px;
+    
 }
 
-.teamr-link-svg {
+.team-link-svg {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -459,15 +460,15 @@ li {
 }
 
 .footer-item {
+    background: none;
     width: 40px;
     height: 40px;
-    padding: 8px;
-    
 }
 
 .footer-link {
     width: 100%;
     height: 100%;
+    padding: 8px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
