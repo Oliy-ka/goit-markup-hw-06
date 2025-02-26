@@ -426,55 +426,56 @@
         <div class="modal-overlay">
             <div class="modal">
                 <button type="button" class="modal-btn">
-                    <svg width="8" height="8">
+                    <svg class="modal-btn-svg" width="8" height="8">
                         <use href="./images/icons.svg#icon-close"></use>
                     </svg>
                 </button> 
                 <p class="modal-form-title">Leave your contacts and we will call you back</p>   
                 <form class="modal-form">
                     <div class="modal-form-container">
-                        <label for="name" class="modal-form-item ">
+                        <label for="user-name" class="modal-form-item ">
                             Name
-                            <div class="modal-form-item-input-box">
-                                <input id="name" name="name" type="text" class="modal-form-item-input">
-                                <svg width="18" height="24" class="modal-form-item-svg">
-                                    <use href="./images/icons.svg#icon-person"></use>
-                                </svg>
-                            </div>
                         </label>
+                        <div class="modal-form-item-input-cont">
+                            <input id="user-name" name="user-name" type="text" class="modal-form-item-input">
+                            <svg width="18" height="24" class="modal-form-item-svg">
+                                <use href="./images/icons.svg#icon-person"></use>
+                            </svg>
+                        </div>   
                     </div>
                     <div class="modal-form-container">
-                        <label for="phone" class="modal-form-item">
+                        <label for="user-phone" class="modal-form-item">
                             Phone
-                            <div class="modal-form-item-input-box">
-                                <input id="phone" name="phone" type="tel" class="modal-form-item-input">
-                                <svg width="18" height="24" class="modal-form-item-svg">
-                                    <use href="./images/icons.svg#icon-phone"></use>
-                                </svg>
-                            </div>
-                        </label>
+                         </label>   
+                        <div class="modal-form-item-input-cont">
+                            <input id="user-phone" name="user-phone" type="tel" class="modal-form-item-input">
+                            <svg width="18" height="24" class="modal-form-item-svg">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </div>
                     </div>
                     <div class="modal-form-container">
-                        <label for="email" class="modal-form-item">
+                        <label for="user-email" class="modal-form-item">
                             Email
-                            <div class="modal-form-item-input-box">
-                                <input id="email" name="email" type="email" class="modal-form-item-input">
-                                <svg width="18" height="24" class="modal-form-item-svg">
-                                    <use href="./images/icons.svg#icon-email"></use>
-                                </svg>
-                            </div>
-                        </label>
+                        </label>   
+                        <div class="modal-form-item-input-cont">
+                            <input id="user-email" name="user-email" type="email" class="modal-form-item-input">
+                            <svg width="18" height="24" class="modal-form-item-svg">
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div> 
                     </div>
-                    
-                    <label for="comment" class="modal-form-item">
-                        Comment
-                        <textarea id="comment" name="comment" class="modal-form-textarea" placeholder="Text input"></textarea>
-                    </label>
+                    <div class="modal-form-item-comment">
+                        <label for="user-comment" class="modal-form-item">
+                            Comment
+                        </label>
+                        <textarea id="user-comment" name="user-comment" class="modal-form-textarea" placeholder="Text input"></textarea>
+                    </div>
                     
 
                     <div class="modal-form-checkbox">
-                        <input id="accept" name="accept" type="checkbox" class="modal-form-item-input-check visually-hidden " value="true">
-                        <label for="accept" class="modal-form-checkbox-item">
+                        <input  id="user-privacy" name="user-privacy" type="checkbox" class="modal-form-item-input-check visually-hidden " value="true">
+                        <label for="user-privacy" class="modal-form-checkbox-item">
                             <span class="modal-form-checkbox-img">
                                 <svg class="modal-form-checkbox-svg" width="10" height="8">
                                     <use href="./images/icons.svg#icon-check"></use>
