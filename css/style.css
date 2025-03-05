@@ -355,7 +355,7 @@ button{
 
 .preview {
     background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -363,6 +363,24 @@ button{
     padding-bottom: 72px;
     margin: 0 auto;
     min-width: 320px;
+}
+
+@media screen and (max-width:768px) and (min-resolution: 2x) {
+    .preview{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg@2x.jpg);
+    }
+}
+
+@media screen and (min-width:768px) and (min-resolution: 2x) {
+    .preview {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg@2x.jpg);
+    }
+}
+
+@media screen and (min-width:1158px) and (min-resolution: 2x) {
+    .preview {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg@2x.jpg);
+    }
 }
 
 .preview-title {
