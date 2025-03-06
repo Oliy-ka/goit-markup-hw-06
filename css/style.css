@@ -335,9 +335,6 @@ button{
     border-radius: 50%;
     border: none;
     padding: 8px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .social-svg {
